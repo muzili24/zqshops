@@ -12,6 +12,7 @@
     <module>app-fun-server</module>
     <module>server-common-api</module>
     <module>pc-fun-server</module>
+    <module>domain</module>
   </modules>
 
   <properties>
