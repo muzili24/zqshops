@@ -12,11 +12,20 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SysFunction extends Pager {
+public class SysMenu extends Pager{
 
     private String id;
-    private String funname;
+    private String menuname;
+    private String pic;
+    private String flag;
     private String uri;
+
+    private String furi;
+    private String em1;
+    private String em2;
+    private String em3;
+    private String em4;
+
     private String stat;
     private String createname;
     private String createtimes;
