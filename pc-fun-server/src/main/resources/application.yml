@@ -2,7 +2,7 @@ server:
   port: 8002
 spring:
   application:
-    name: datesource
+    name: datasource
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource      #当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver        #mysql驱动包
@@ -31,10 +31,7 @@ spring:
 mybatis-plus:
   mapper-locations: classpath:mapping/*.xml  #注意：一定要对应mapper映射xml文件的所在路径
   type-aliases-package: org.zq.entity  # 注意：对应实体类的路径
-logging:
-  config: classpath:log4j2.xml
-  level:
-    cn.jay.repository: trace
+
 #pagehelper分页插件
 #pagehelper:
 #  helperDialect: mysql
