@@ -11,8 +11,6 @@ import lombok.Data;
 
 @Data
 public class Pager {
-	protected Integer start;
-	protected Integer offset;
-	protected String sort;
-	protected String order;
+	protected Integer pageNum;
+	protected Integer pageSize;
 }
