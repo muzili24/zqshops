@@ -8,6 +8,4 @@ public class PcFunStartMain {
         SpringApplication.run(PcFunStartMain.class,args);
     }
 
-
-
 }
