@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SysDoc extends Pager{
+public class SysDoc {
 
     private String id;
     private String docnum;

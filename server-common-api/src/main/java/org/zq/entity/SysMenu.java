@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SysMenu extends Pager{
+public class SysMenu {
 
     private String id;
     private String menuname;

@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: cloud-demo-client-8001 #微服务名称
+
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource  #当前数据源操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://8.142.111.157:3306/shops?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: admin
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: org.zq.entity #所有entity别名所在包

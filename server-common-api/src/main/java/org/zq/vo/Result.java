@@ -1,5 +1,7 @@
 package org.zq.vo;
 
+import cn.hutool.db.Page;
+import com.github.pagehelper.PageInfo;
 import lombok.Data;
 
 import java.util.List;
@@ -8,7 +10,7 @@ import java.util.List;
 public class Result<T> {
     private int code;
     private String msg;
-    private long count;
     private List<T> data;
+    private PageInfo pager;
 
 }

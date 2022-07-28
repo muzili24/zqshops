@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class SysFunction extends Pager {
+public class SysFunction {
 
     private String id;
     private String funname;
