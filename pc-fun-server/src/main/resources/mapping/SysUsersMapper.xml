@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zqpc.dao.SysUsersDAO">
+
+    <!-- 带有条件的查询 -->
+    <select id="getSysUsersList" resultType="org.zq.entity.SysUsers" parameterType="org.zq.entity.SysUsers">
+        select * from sys_user
+    </select>
+
+
+
+
+</mapper>
